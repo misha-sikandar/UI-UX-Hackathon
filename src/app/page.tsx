@@ -1,7 +1,8 @@
 // app/page.js
 import Image from 'next/image';
 
-import { Carousel } from '@/components/ui/carousel';
+
+
 
 export default function Home() {
   return (
@@ -41,25 +42,43 @@ export default function Home() {
       </div><br></br>
        
         
+      <div className="w-full p-4">
+  {/* Section Title */}
+  <h2 className="text-lg font-semibold mb-4">Best of Air Max</h2>
 
-      <div className="w-full h-[604px]">
-  {/* Navbar Container */}
-  <div className="w-full h-[52px] flex justify-between items-center px-6">
-    {/* Title Section */}
-    <div className="font-['Helvetica Neue'] font-medium text-[22px] leading-[28px]">
-      <h3>Best Of Air Max</h3>
+  {/* Grid Container */}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {/* Product Card 1 */}
+    <div className="flex flex-col items-center">
+      <img src="/images/shoe1.png" alt="Nike Air Max Pulse" className="w-full object-cover" />
+      <div className="mt-4 text-center">
+        <h3 className="text-sm font-medium">Nike Air Max Pulse</h3>
+        <p className="text-gray-500 text-sm">Women's Shoes</p>
+        <p className="text-black font-semibold mt-1">₹ 13 995</p>
+      </div>
     </div>
-  
+    {/* Product Card 2 */}
+    <div className="flex flex-col items-center">
+      <img src="/images/shoe3.png" alt="Nike Air Max Pulse" className="w-full object-cover" />
+      <div className="mt-4 text-center">
+        <h3 className="text-sm font-medium">Nike Air Max Pulse</h3>
+        <p className="text-gray-500 text-sm">Men's Shoes</p>
+        <p className="text-black font-semibold mt-1">₹ 13 995</p>
+      </div>
+    </div>
+    {/* Product Card 3 */}
+    <div className="flex flex-col items-center">
+      <img src="/images/shoe2.png" alt="Nike Air Max 97 SE" className="w-full object-cover" />
+      <div className="mt-4 text-center">
+        <h3 className="text-sm font-medium">Nike Air Max 97 SE</h3>
+        <p className="text-gray-500 text-sm">Men's Shoes</p>
+        <p className="text-black font-semibold mt-1">₹ 16 995</p>
+      </div>
+    </div>
   </div>
-  <div className="w-full h-[540px]">
-
-  <Carousel/>
-  </div>
-  
-
-
 </div>
 
+<br></br><br></br>
 
 
 
@@ -95,6 +114,7 @@ export default function Home() {
     </div>
   </div>
 </div>
+  
 
 
 <div className="font-semibold">

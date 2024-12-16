@@ -12,13 +12,13 @@ export default function BottomNavbar() {
               <IoLocationOutline className="text-white" />
               <span>India</span>
             </div>
-            <div className="mt-2 md:mt-0 md:ml-4 flex items-center space-x-1">
+            <div className="mt-2 md:mt-0 md:ml-4 flex text-[#7E7E7E] items-center space-x-1">
               <AiOutlineCopyrightCircle />
               <span>Nike, Inc. All Rights Reserved</span>
             </div>
           </div>
 
-          <ul className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
+          <ul className="flex flex-col md:flex-row items-center space-y-2 text-[#7E7E7E] md:space-y-0 md:space-x-6">
             <li className="cursor-pointer hover:text-gray-300">Guides</li>
             <li className="cursor-pointer hover:text-gray-300">Terms of Sale</li>
             <li className="cursor-pointer hover:text-gray-300">Terms of Use</li>

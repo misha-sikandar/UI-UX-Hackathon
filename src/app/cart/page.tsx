@@ -135,9 +135,11 @@ export default function Cart() {
           <p>Total</p>
           <p>₹ 20,890.00</p>
         </div>
+        <a href="/checkout">
         <button className="w-full bg-black text-white py-2 mt-8 rounded-full hover:bg-gray-800">
           Member Checkout
         </button>
+        </a>
       </div>
     </div>
   );
