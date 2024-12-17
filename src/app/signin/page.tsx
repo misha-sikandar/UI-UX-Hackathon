@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { SiNike } from "react-icons/si";
 // app/login/page.jsx
 export default function Login() {
   return (
@@ -6,13 +6,9 @@ export default function Login() {
       <div className="flex flex-col items-center bg-white w-full max-w-sm rounded-lg shadow-lg p-8">
         {/* Logo Section */}
         <div className="mb-6 text-center">
-          <Image
-            src="/images/images.png" 
-            alt="Nike Logo" 
-            width={180} // Adjusted for better proportions
-            height={50}
-            className="mb-4"
-          />
+         <div className="flex justify-center items-center">
+             <SiNike className="w-[100px] h-[100px]" />
+           </div>
           <h2 className="text-lg font-semibold text-gray-800">
             YOUR ACCOUNT FOR EVERYTHING NIKE
           </h2>
